@@ -1,0 +1,36 @@
+
+# exercise 1
+
+print("Nathan")
+print("54 valleyview rd")
+print("L3T 6Y8")
+print("Markham,Ontario")
+
+
+# exercise 2
+
+name_input = (input("Please enter name : "))
+print("Hello"+ " " + name_input)
+
+# excercise 3
+
+lenth = float(input('Please enter lenth in m :'))
+width = float(input('Please enter width in m :'))
+area = lenth * width
+print(f'The area of the room is {area} ' 'm^2')
+
+# excercise 4
+
+lenth_of_field = float(input('Please enter lenth in feet :'))
+width_of_field = float(input('Please enter width in feet :'))
+area_of_field = lenth_of_field * width_of_field / 43500
+print(f"Your field in acres is {area_of_field}")
+
+# excercise 5 
+
+small_bottle = int(input('Please enter amount of small bottles :'))
+large_bottle = int(input('Please enter amount of large bottles :'))
+small_bottle_refund = small_bottle * 0.1
+large_bottle_refund = large_bottle * 0.25
+total_refund = small_bottle_refund + large_bottle_refund 
+print(f'Your total refund is $ {total_refund:.2f}')
